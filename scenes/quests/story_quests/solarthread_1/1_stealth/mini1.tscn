@@ -84,5 +84,6 @@ metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="CollectibleItem" parent="." instance=ExtResource("10_vhyuf")]
 position = Vector2(4048, 824)
+next_scene = "uid://cq30v0e31vjl1"
 item = SubResource("Resource_vhyuf")
 collected_dialogue = ExtResource("12_sm1ig")
