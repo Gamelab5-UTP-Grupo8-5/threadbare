@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=4 uid="uid://ng6btae7fiwj"]
+[gd_scene load_steps=31 format=4 uid="uid://ng6btae7fiwj"]
 
 [ext_resource type="TileSet" uid="uid://brkuadfux2drl" path="res://scenes/quests/story_quests/solarthread_1/my_tiles/sand_floor.tres" id="1_3juu8"]
 [ext_resource type="TileSet" uid="uid://cfguao3ikr2md" path="res://scenes/quests/story_quests/solarthread_1/my_tiles/columnaarena1.tres" id="3_mxoh4"]
@@ -14,7 +14,6 @@
 [ext_resource type="Resource" uid="uid://c40iihuk38rkn" path="res://scenes/quests/story_quests/solarthread_1/1_stealth/stealth_components/solarthread_1_stealth.dialogue" id="10_xkvwt"]
 [ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="11_c5q7r"]
 [ext_resource type="Resource" uid="uid://dey527d4oyo6x" path="res://scenes/quests/story_quests/solarthread_1/1_stealth/stealth_components/solarthread_1_collected.dialogue" id="12_sm1ig"]
-[ext_resource type="AudioStream" uid="uid://bxlt1m57g2oj3" path="res://scenes/quests/story_quests/solarthread_1/my_tiles/musicalab1-1.mp3" id="15_qufs7"]
 [ext_resource type="Texture2D" uid="uid://bw6akomwnibah" path="res://scenes/quests/story_quests/solarthread_1/my_tiles/Sprite-0005.png" id="16_r5qxt"]
 [ext_resource type="PackedScene" uid="uid://d37mebu7atru7" path="res://scenes/game_elements/characters/enemies/guard/guard.tscn" id="16_x0c8l"]
 [ext_resource type="SpriteFrames" uid="uid://cnhbj5dm7l24k" path="res://scenes/quests/story_quests/solarthread_1/1_stealth/stealth_components/solarthread_1_guard_enemy.tres" id="17_wiwd7"]
@@ -123,21 +122,23 @@ dialogue = ExtResource("10_c28wv")
 position = Vector2(1, -59.625)
 shape = SubResource("RectangleShape2D_qufs7")
 
-[node name="Checkpoint" parent="Checkpoints/Checkpoint" instance=ExtResource("9_755mb")]
-position = Vector2(1190.2499, 1337)
+[node name="Checkpoint2" parent="Checkpoints" instance=ExtResource("9_755mb")]
+position = Vector2(2881.2495, 2064.9998)
+scale = Vector2(0.99999994, 0.99999994)
 sprite_frames = ExtResource("8_c5q7r")
 dialogue = ExtResource("10_c28wv")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Checkpoints/Checkpoint/Checkpoint"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Checkpoints/Checkpoint2"]
 position = Vector2(1, -59.625)
 shape = SubResource("RectangleShape2D_qufs7")
 
-[node name="Checkpoint" parent="Checkpoints/Checkpoint/Checkpoint" instance=ExtResource("9_755mb")]
-position = Vector2(1602.5, 1268.7499)
+[node name="Checkpoint3" parent="Checkpoints" instance=ExtResource("9_755mb")]
+position = Vector2(4483.749, 3333.7495)
+scale = Vector2(0.9999998, 0.9999998)
 sprite_frames = ExtResource("8_c5q7r")
 dialogue = ExtResource("10_c28wv")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Checkpoints/Checkpoint/Checkpoint/Checkpoint"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Checkpoints/Checkpoint3"]
 position = Vector2(1, -59.625)
 shape = SubResource("RectangleShape2D_qufs7")
 
@@ -160,11 +161,6 @@ collected_dialogue = ExtResource("12_sm1ig")
 position = Vector2(5, -5)
 scale = Vector2(2.02, 2.02)
 texture = ExtResource("16_r5qxt")
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("15_qufs7")
-volume_db = 1.0
-autoplay = true
 
 [node name="Enemy" type="Node2D" parent="."]
 y_sort_enabled = true
