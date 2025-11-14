@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=4 uid="uid://ng6btae7fiwj"]
+[gd_scene load_steps=32 format=4 uid="uid://ng6btae7fiwj"]
 
 [ext_resource type="TileSet" uid="uid://brkuadfux2drl" path="res://scenes/quests/story_quests/solarthread_1/my_tiles/sand_floor.tres" id="1_3juu8"]
 [ext_resource type="TileSet" uid="uid://cfguao3ikr2md" path="res://scenes/quests/story_quests/solarthread_1/my_tiles/columnaarena1.tres" id="3_mxoh4"]
@@ -21,6 +21,7 @@
 [ext_resource type="AudioStream" uid="uid://cx6jv2cflrmqu" path="res://assets/third_party/sounds/characters/player/Foot.ogg" id="19_wdsn8"]
 [ext_resource type="Script" uid="uid://dnp0tjloec2d7" path="res://scenes/game_logic/stealth_game_logic.gd" id="20_wdsn8"]
 [ext_resource type="SpriteFrames" uid="uid://djhdvlyqq5qvx" path="res://scenes/quests/story_quests/solarthread_1/1_stealth/esqueletosentado.tres" id="22_r5qxt"]
+[ext_resource type="AudioStream" uid="uid://dw8t48jn57bp" path="res://assets/first_party/music/Threadbare Loop_Main_Cresendo_01.ogg" id="22_w3hxb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qufs7"]
 size = Vector2(105.25, 132.75)
@@ -329,3 +330,8 @@ sprite_frames = ExtResource("22_r5qxt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy/CharacterBody2D6"]
 shape = SubResource("RectangleShape2D_0bnpi")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("22_w3hxb")
+volume_db = -23.432
+autoplay = true
