@@ -84,7 +84,7 @@ tile_map_data = PackedByteArray("AAABAAEAAQAAAAMAAAACAAEAAQABAAMAAAADAAEAAQABAAM
 tile_set = ExtResource("3_mxoh4")
 
 [node name="Player" parent="." instance=ExtResource("4_t2n3p")]
-position = Vector2(2831, 1405)
+position = Vector2(8, -208)
 sprite_frames = ExtResource("4_qc45o")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
@@ -107,7 +107,6 @@ range_z_max = 100
 texture = ExtResource("5_mxoh4")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-visible = false
 color = Color(0.01699838, 0.010595616, 0.08914431, 0.8235294)
 
 [node name="Checkpoints" type="Node2D" parent="."]
