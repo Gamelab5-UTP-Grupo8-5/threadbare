@@ -104,10 +104,10 @@ animations = [{
 "texture": SubResource("AtlasTexture_yvxq8")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_8wc01")
+"texture": SubResource("AtlasTexture_yvxq8")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_1vu4k")
+"texture": SubResource("AtlasTexture_yvxq8")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yvxq8")
@@ -116,10 +116,10 @@ animations = [{
 "texture": SubResource("AtlasTexture_8wc01")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_1vu4k")
+"texture": SubResource("AtlasTexture_8wc01")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_yvxq8")
+"texture": SubResource("AtlasTexture_8wc01")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8wc01")
@@ -128,10 +128,10 @@ animations = [{
 "texture": SubResource("AtlasTexture_1vu4k")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_yvxq8")
+"texture": SubResource("AtlasTexture_1vu4k")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_8wc01")
+"texture": SubResource("AtlasTexture_1vu4k")
 }],
 "loop": true,
 "name": &"defeated",
