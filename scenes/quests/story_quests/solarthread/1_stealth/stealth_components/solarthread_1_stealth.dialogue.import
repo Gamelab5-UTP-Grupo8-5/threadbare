@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c40iihuk38rkn"
+path="res://.godot/imported/solarthread_1_stealth.dialogue-02ddb3d64b46878bd38804e17b1564c8.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/solarthread/1_stealth/stealth_components/solarthread_1_stealth.dialogue"
+dest_files=["res://.godot/imported/solarthread_1_stealth.dialogue-02ddb3d64b46878bd38804e17b1564c8.tres"]
+
+[params]
+
+defaults=true
