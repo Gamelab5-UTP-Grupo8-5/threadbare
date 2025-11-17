@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cg2ruaf1apvnv"
+path="res://.godot/imported/solarthread_1_outro.dialogue-1c1cce0e62cd62e42d728040acfd75e9.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/solarthread/4_outro/outro_components/solarthread_1_outro.dialogue"
+dest_files=["res://.godot/imported/solarthread_1_outro.dialogue-1c1cce0e62cd62e42d728040acfd75e9.tres"]
+
+[params]
+
+defaults=true

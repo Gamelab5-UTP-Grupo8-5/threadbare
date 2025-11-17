@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dx7peo18oc6jo"
+path="res://.godot/imported/solarthread_1_combat.dialogue-0d4c5136041afb7aa16e4a9fcaa88f0d.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/solarthread/2_combat/combat_components/solarthread_1_combat.dialogue"
+dest_files=["res://.godot/imported/solarthread_1_combat.dialogue-0d4c5136041afb7aa16e4a9fcaa88f0d.tres"]
+
+[params]
+
+defaults=true
