@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Quest" load_steps=2 format=3 uid="uid://dmtafji4etky8"]
+
+[ext_resource type="Script" uid="uid://dts1hwdy3phin" path="res://scenes/menus/storybook/components/quest.gd" id="1_k6ks7"]
+
+[resource]
+script = ExtResource("1_k6ks7")
+title = "SolarThread"
+description = "Un niño que se adentra en un sueño que lo lleva a la época pre incaica ubicada en Paracas, para salir de ese sueño debe devolver el color a un manto fúnebre obteniendo los colores de esta mediante 3 tintes naturales que encontrará explorando la zona."
+first_scene = "uid://dm13ta4j0gl5h"
+metadata/_custom_type_script = "uid://dts1hwdy3phin"
