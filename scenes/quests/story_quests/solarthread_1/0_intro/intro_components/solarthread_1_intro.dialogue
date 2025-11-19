@@ -7,6 +7,9 @@ do animation_player.animation_finished
 Desde pequeño, Pacha ha escuchado las historias de los mantos sagrados y de cómo guardaban los colores del alma.
 Pero ahora, el pueblo está seco, y los antiguos tonos del desierto parecen haber desaparecido.
 Mientras observa un fragmento de tela hallado por su abuela, siente cómo el aire cambia.
+Se adentra en un sueño profundo que lo lleva a epocas preincaicas.
+Llega a la antigua ciudad de Paracas hace 700 a.C.
 do animation_player.play(&"walk_off")
-Los hilos comienzan a moverse, tejiendo una figura luminosa frente a él.
+Se encuentra confundido y observa un manto sagrado decolorado por el tiempo.
+Escucha una voz en su interior llamandolo a que devuelva la vida a su alrededor.
 => END
