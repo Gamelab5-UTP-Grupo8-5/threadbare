@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://b15c1mkvibte5"
+path="res://.godot/imported/finalparaoutro1.dialogue-215981e77cf41ee21658287546156ab6.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/solarthread_1/3_sequence_final/stealth_components/finalparaoutro1.dialogue"
+dest_files=["res://.godot/imported/finalparaoutro1.dialogue-215981e77cf41ee21658287546156ab6.tres"]
+
+[params]
+
+defaults=true

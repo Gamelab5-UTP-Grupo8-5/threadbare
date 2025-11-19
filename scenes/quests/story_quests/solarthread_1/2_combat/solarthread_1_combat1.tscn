@@ -255,13 +255,13 @@ metadata/patchwork_id = "d18ec323fcf74b079c05c537f026a6ed"
 [node name="CollectibleItem" parent="OnTheGround" instance=ExtResource("22_m7kmp")]
 position = Vector2(2429, 1936)
 revealed = false
-next_scene = "uid://w5smmtxixq8"
+next_scene = "uid://ijqp82qs7gwy"
 item = SubResource("Resource_idy4y")
 collected_dialogue = ExtResource("24_mxvh2")
 metadata/patchwork_id = "b4d8599d3c834fa99ea2e23c1a05d61c"
 
 [node name="Sprite2D2" type="Sprite2D" parent="OnTheGround/CollectibleItem"]
-position = Vector2(-2.9999812, 2.0000498)
+position = Vector2(2.0000188, -5.9999504)
 scale = Vector2(2, 1.887)
 texture = ExtResource("27_cc6u8")
 
@@ -299,7 +299,7 @@ position = Vector2(1842, 2423)
 position = Vector2(1714, 2527)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-color = Color(0.481789, 0.48179, 0.481789, 1)
+color = Color(0.6872149, 0.6872149, 0.6872152, 1)
 metadata/patchwork_id = "97c5cb94c6ea4e5d8643dc143296f2d0"
 
 [node name="ScreenOverlay" type="CanvasLayer" parent="."]

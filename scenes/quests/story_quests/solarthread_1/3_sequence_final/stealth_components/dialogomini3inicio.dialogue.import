@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://ph2am7kodkko"
+path="res://.godot/imported/dialogomini3inicio.dialogue-55b91b93d640fc120997ac359e417844.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/solarthread_1/3_sequence_final/stealth_components/dialogomini3inicio.dialogue"
+dest_files=["res://.godot/imported/dialogomini3inicio.dialogue-55b91b93d640fc120997ac359e417844.tres"]
+
+[params]
+
+defaults=true

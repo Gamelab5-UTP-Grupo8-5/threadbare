@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://sapijj8nlp6m"]
+[gd_scene load_steps=25 format=4 uid="uid://sapijj8nlp6m"]
 
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_nlqks"]
 [ext_resource type="PackedScene" uid="uid://iu2q66clupc6" path="res://scenes/game_elements/characters/player/player.tscn" id="2_3h2hh"]
@@ -22,6 +22,7 @@
 [ext_resource type="PackedScene" uid="uid://covsdqqsd6rsy" path="res://scenes/game_elements/props/sign/sign.tscn" id="20_awc57"]
 [ext_resource type="PackedScene" uid="uid://cfcgrfvtn04yp" path="res://scenes/ui_elements/hud/hud.tscn" id="21_k2mpj"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="22_schhy"]
+[ext_resource type="Resource" uid="uid://dqadxc6mhps48" path="res://scenes/quests/story_quests/solarthread_1/2_combat/combat_components/inciodenarracion2.dialogue" id="23_3h2hh"]
 
 [sub_resource type="Resource" id="Resource_yn3ir"]
 script = ExtResource("18_hm406")
@@ -139,7 +140,7 @@ position_smoothing_enabled = true
 
 [node name="Cinematic" type="Node2D" parent="."]
 script = ExtResource("22_schhy")
-dialogue = ExtResource("19_dp7hc")
+dialogue = ExtResource("23_3h2hh")
 metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [connection signal="solved" from="OnTheGround/SequencePuzzle" to="OnTheGround/CollectibleItem" method="reveal"]

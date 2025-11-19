@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bgs8o3pfg2fkx"
+path="res://.godot/imported/checkpoint3ifinal.dialogue-ebd30b2556d552d661ed1989060d1e6a.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/solarthread_1/3_sequence_final/stealth_components/checkpoint3ifinal.dialogue"
+dest_files=["res://.godot/imported/checkpoint3ifinal.dialogue-ebd30b2556d552d661ed1989060d1e6a.tres"]
+
+[params]
+
+defaults=true

@@ -1,14 +1,12 @@
 [gd_scene load_steps=6 format=4 uid="uid://w5smmtxixq8"]
 
-[ext_resource type="PackedScene" uid="uid://cfcgrfvtn04yp" path="res://scenes/ui_elements/hud/hud.tscn" id="1_mdqjl"]
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="2_di7cv"]
 [ext_resource type="SpriteFrames" uid="uid://4uhvya1ymh8y" path="res://scenes/quests/story_quests/solarthread_1/player_components/solarthread_1_player.tres" id="3_b8do2"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="4_cohlw"]
+[ext_resource type="Texture2D" uid="uid://sdmimlxquh7n" path="res://scenes/quests/story_quests/solarthread_1/my_tiles/mantosaggrado.png" id="5_mdqjl"]
 [ext_resource type="Resource" uid="uid://cg2ruaf1apvnv" path="res://scenes/quests/story_quests/solarthread_1/4_outro/outro_components/solarthread_1_outro.dialogue" id="5_vpwfl"]
 
 [node name="Outro" type="Node2D"]
-
-[node name="HUD" parent="." instance=ExtResource("1_mdqjl")]
 
 [node name="TileMapLayers" type="Node2D" parent="."]
 
@@ -42,3 +40,8 @@ script = ExtResource("4_cohlw")
 dialogue = ExtResource("5_vpwfl")
 next_scene = "uid://cufkthb25mpxy"
 metadata/_custom_type_script = "uid://x1mxt6bmei2o"
+
+[node name="IntroImage" type="Sprite2D" parent="."]
+position = Vector2(775, 158)
+scale = Vector2(0.322, 0.322)
+texture = ExtResource("5_mdqjl")
