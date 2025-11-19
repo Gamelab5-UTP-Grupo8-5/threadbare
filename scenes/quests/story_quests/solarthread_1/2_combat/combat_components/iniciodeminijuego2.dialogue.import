@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://smvq1up6vplm"
+path="res://.godot/imported/iniciodeminijuego2.dialogue-66862ac1baea8cca8943431d2d9d0c97.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/solarthread_1/2_combat/combat_components/iniciodeminijuego2.dialogue"
+dest_files=["res://.godot/imported/iniciodeminijuego2.dialogue-66862ac1baea8cca8943431d2d9d0c97.tres"]
+
+[params]
+
+defaults=true
