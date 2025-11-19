@@ -106,7 +106,7 @@ range_z_max = 100
 texture = ExtResource("5_mxoh4")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-color = Color(0.01699838, 0.010595616, 0.08914431, 0.8235294)
+color = Color(0.024422223, 0.01044675, 0.0816922, 0.8235294)
 
 [node name="Checkpoints" type="Node2D" parent="."]
 y_sort_enabled = true
