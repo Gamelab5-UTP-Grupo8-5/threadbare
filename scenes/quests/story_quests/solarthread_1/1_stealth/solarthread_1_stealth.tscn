@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=4 uid="uid://ng6btae7fiwj"]
+[gd_scene load_steps=31 format=4 uid="uid://ng6btae7fiwj"]
 
 [ext_resource type="TileSet" uid="uid://brkuadfux2drl" path="res://scenes/quests/story_quests/solarthread_1/my_tiles/sand_floor.tres" id="1_3juu8"]
 [ext_resource type="TileSet" uid="uid://cfguao3ikr2md" path="res://scenes/quests/story_quests/solarthread_1/my_tiles/columnaarena1.tres" id="3_mxoh4"]
@@ -8,7 +8,6 @@
 [ext_resource type="SpriteFrames" uid="uid://dhio0f8mcmdii" path="res://scenes/quests/story_quests/solarthread_1/quri1.tres" id="8_c5q7r"]
 [ext_resource type="PackedScene" uid="uid://dua6mynlw2ptw" path="res://scenes/game_elements/props/checkpoint/checkpoint.tscn" id="9_755mb"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="9_c28wv"]
-[ext_resource type="PackedScene" uid="uid://cfcgrfvtn04yp" path="res://scenes/ui_elements/hud/hud.tscn" id="9_xkvwt"]
 [ext_resource type="Resource" uid="uid://3cemsxkjg8ke" path="res://scenes/quests/story_quests/solarthread_1/1_stealth/stealth_components/solarthread_1_checkpoint.dialogue" id="10_c28wv"]
 [ext_resource type="PackedScene" uid="uid://fuhl3l6gxq5k" path="res://scenes/game_elements/props/collectible_item/collectible_item.tscn" id="10_vhyuf"]
 [ext_resource type="Resource" uid="uid://c40iihuk38rkn" path="res://scenes/quests/story_quests/solarthread_1/1_stealth/stealth_components/solarthread_1_stealth.dialogue" id="10_xkvwt"]
@@ -67,7 +66,7 @@ _data = {
 point_count = 4
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0bnpi"]
-size = Vector2(86, 104)
+size = Vector2(72.5, 84)
 
 [node name="TilemapLayers" type="Node2D"]
 
@@ -84,7 +83,7 @@ tile_map_data = PackedByteArray("AAABAAEAAQAAAAMAAAACAAEAAQABAAMAAAADAAEAAQABAAM
 tile_set = ExtResource("3_mxoh4")
 
 [node name="Player" parent="." instance=ExtResource("4_t2n3p")]
-position = Vector2(22, -228)
+position = Vector2(16, -227)
 sprite_frames = ExtResource("4_qc45o")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
@@ -146,8 +145,6 @@ shape = SubResource("RectangleShape2D_qufs7")
 
 [node name="ScreenOverlay" type="CanvasLayer" parent="."]
 
-[node name="HUD" parent="." instance=ExtResource("9_xkvwt")]
-
 [node name="Cinematic" type="Node2D" parent="."]
 script = ExtResource("9_c28wv")
 dialogue = ExtResource("10_xkvwt")
@@ -155,12 +152,12 @@ metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="CollectibleItem" parent="." instance=ExtResource("10_vhyuf")]
 position = Vector2(4048, 824)
-next_scene = "uid://w5smmtxixq8"
+next_scene = "uid://dftx0txgy5gb4"
 item = SubResource("Resource_vhyuf")
 collected_dialogue = ExtResource("12_sm1ig")
 
 [node name="Sprite2D2" type="Sprite2D" parent="CollectibleItem"]
-position = Vector2(5, -5)
+position = Vector2(2, -6)
 scale = Vector2(2.02, 2.02)
 texture = ExtResource("16_r5qxt")
 
@@ -295,11 +292,12 @@ shape = SubResource("RectangleShape2D_0bnpi")
 position = Vector2(-2042, 2270)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Enemy/CharacterBody2D3"]
-position = Vector2(20, 8)
+position = Vector2(2, -20)
+scale = Vector2(1.2604166, 1.2239584)
 sprite_frames = ExtResource("22_r5qxt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy/CharacterBody2D3"]
-position = Vector2(7, 12)
+position = Vector2(-11, -12)
 shape = SubResource("RectangleShape2D_0bnpi")
 
 [node name="CharacterBody2D4" type="CharacterBody2D" parent="Enemy"]
@@ -331,6 +329,7 @@ position = Vector2(9, -4)
 sprite_frames = ExtResource("22_r5qxt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy/CharacterBody2D6"]
+position = Vector2(-2, -1)
 shape = SubResource("RectangleShape2D_0bnpi")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]

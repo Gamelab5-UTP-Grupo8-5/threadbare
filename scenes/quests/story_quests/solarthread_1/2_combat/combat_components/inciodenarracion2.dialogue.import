@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dqadxc6mhps48"
+path="res://.godot/imported/inciodenarracion2.dialogue-a08189d91bad47959932f350ca68ea05.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/solarthread_1/2_combat/combat_components/inciodenarracion2.dialogue"
+dest_files=["res://.godot/imported/inciodenarracion2.dialogue-a08189d91bad47959932f350ca68ea05.tres"]
+
+[params]
+
+defaults=true
